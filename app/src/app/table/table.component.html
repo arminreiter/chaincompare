@@ -1,0 +1,10 @@
+<ag-grid-angular
+    style="height: 700px;"
+    class="ag-theme-alpine-dark w-100 shadow p-0"
+    [rowData]="rowData"
+    [quickFilterText]="search"
+    [defaultColDef]="defaultColDef"
+    [columnDefs]="columnDefs"
+    (firstDataRendered)="onFirstDataRendered($event)"
+    >
+</ag-grid-angular>

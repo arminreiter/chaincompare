@@ -1,0 +1,34 @@
+{
+    "name": "Stellar",
+    "logo": "assets/logos/stellar.svg",
+    "mainSite": "https://stellar.org",
+    "sourceCode": "https://github.com/stellar/stellar-core",
+    "links": [ ],
+    "blockExplorer" : [ "https://stellar.expert/" ],
+    "currency": {
+        "name" : "Stellar Lumens",
+        "symbol" : "XLM",
+        "decimals": 7
+    },
+    "tps" : 1000,
+    "ttf" : 5,
+    "blockTime" : 5,
+    "blockSize" : 0,
+    "clientLanguage" : [ "C++" ],
+    "consensus": "SCP",
+    "creator": "Stellar Development Foundation",
+    "headquarter" : {
+        "country" : "USA",
+        "city" : "San Francisco"
+    },
+    "chainLaunch" : 2015,
+    "smartContractLanguages" : [ ],
+    "evmCompatible" : false,
+    "hashAlgorithm" : "Ed25519",
+    "type": "public",
+    "license" : "Apache 2.0",
+    "description" : "",
+    "extra": { },
+    "lastUpdated" : "2022-04-24"
+
+}

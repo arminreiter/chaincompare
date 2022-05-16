@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+// @import 'assets/variables';
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+/* import ag-grid */
+@import "ag-grid-community/dist/styles/ag-grid.css";
+@import "ag-grid-community/dist/styles/ag-theme-alpine.css";
+@import "ag-grid-community/dist/styles/ag-theme-alpine-dark.css";
+
+body {
+    background-color: $dark;
+}
+
+main > .container {
+    padding: 60px 15px 0;
+}

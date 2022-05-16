@@ -1,0 +1,34 @@
+{
+    "name": "Cardano",
+    "logo": "assets/logos/cardano.svg",
+    "mainSite": "https://cardano.org/",
+    "sourceCode": "https://github.com/input-output-hk/cardano-node",
+    "links": [ "https://github.com/cardano-foundation" ],
+    "blockExplorer" : [ "https://explorer.cardano.org/", "https://cardanoscan.io/" ],
+    "currency": {
+        "name" : "Cardano",
+        "symbol" : "Ada",
+        "decimals": 6
+    },
+    "tps" : 258,
+    "ttf" : 600,
+    "blockTime" : 20, 
+    "blockSize" : 80, 
+    "clientLanguage" : [ "Haskell" ],
+    "consensus": "Ouroboros",
+    "creator": "Cardano Foundation",
+    "headquarter" : {
+        "country" : "Switzerland",
+        "city" : "Zug"
+    },
+    "chainLaunch" : 2017,
+    "smartContractLanguages" : [ "Marlowe", "Plutus" ],
+    "evmCompatible" : true,
+    "hashAlgorithm" : "BLAKE2b-224",
+    "type": "public",
+    "license" : "Apache 2.0",
+    "description" : "",
+    "extra": { },
+    "lastUpdated" : "2022-04-24"
+
+}

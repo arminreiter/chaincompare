@@ -1,0 +1,33 @@
+{
+    "name": "Bitcoin",
+    "logo": "assets/logos/bitcoin.svg",
+    "mainSite": "https://bitcoin.org",
+    "sourceCode": "https://github.com/bitcoin/bitcoin",
+    "links": [ ],
+    "blockExplorer" : [ "https://www.blockchain.com/explorer" ],
+    "currency": {
+        "name" : "Bitcoin",
+        "symbol" : "BTC",
+        "decimals": 8
+    },
+    "tps" : 7, 
+    "ttf" : 4200, 
+    "blockTime" : 600, 
+    "blockSize" : 1024,
+    "clientLanguage" : [ "C++" ],
+    "consensus": "PoW",
+    "creator": "Satoshi Nakamoto",
+    "headquarter" : { },
+    "chainLaunch" : 2009,
+    "smartContractLanguages" : [ ],
+    "evmCompatible" : false,
+    "hashAlgorithm" : "sha256",
+    "type": "public",
+    "license" : "MIT",
+    "description" : "",
+    "extra": {
+        
+    },
+    "lastUpdated" : "2022-04-24"
+
+}
