@@ -11,6 +11,8 @@ import { AgGridModule } from 'ag-grid-angular';
 import { TableComponent } from './table/table.component';
 import { AboutComponent } from './about/about.component';
 import { FormsModule } from '@angular/forms';
+import { MainComponent } from './main/main.component';
+import { ChainComponent } from './chain/chain.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { FormsModule } from '@angular/forms';
     HeaderComponent,
     FooterComponent,
     TableComponent,
-    AboutComponent
+    AboutComponent,
+    MainComponent,
+    ChainComponent
   ],
   imports: [
     BrowserModule,

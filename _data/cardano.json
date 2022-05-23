@@ -28,6 +28,7 @@
     "type": "public",
     "license" : "Apache 2.0",
     "description" : "",
+    "txModel" : "EUTXO",
     "extra": { },
     "lastUpdated" : "2022-04-24"
 

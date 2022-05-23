@@ -24,6 +24,7 @@
     "hashAlgorithm" : "sha256",
     "type": "public",
     "license" : "MIT",
+    "txModel" : "UTXO",
     "description" : "",
     "extra": {
         

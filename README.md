@@ -1,8 +1,9 @@
 # Chain Compare
 
 Chain compare is a project that collects technical information about blockchains such as time to finality,
-blocksize, consensus algorithm or the smart contract languages. It was created because this information
-is sometimes really hard to find requires some research.  
+blocksize, consensus algorithm or the supported smart contract languages. It was created because this 
+information is sometimes hard to find and/or requires some research.  
+It does not collect financial data such as price, marketcap or trading volume.
 
 ## Add new chain
 

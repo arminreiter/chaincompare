@@ -28,32 +28,33 @@ export class TableComponent implements OnInit {
 
   columnDefs: ColDef[] = [
     { headerName: '',                         headerTooltip: 'Logo',                       field: 'logo',           cellRenderer: this.renderLogo, cellClass: 'px-1', filter: false, sortable: false, resizable: false, width: 40 },
-    { headerName: 'Name',                     headerTooltip: 'Name of the Blockchain',     field: 'name',           width: 120, cellClass: 'fw-bold' },
+    { headerName: 'Name',                     headerTooltip: 'Name of the Blockchain',     field: 'name',           width: 120, cellRenderer: this.renderName },
     { headerName: 'Tps',                      headerTooltip: 'Transactions per Second',    field: 'tps',            width: 82, cellClass: "text-end" },
     { headerName: 'TTF',                      headerTooltip: 'Time till Finality',         field: 'ttf',            width: 82, cellClass: "text-end" },
-    { headerName: 'Block Size',               headerTooltip: 'Block Size in KB',           field: 'blockSize',      width: 82, cellClass: "text-end"},
+    { headerName: 'Block Size',               headerTooltip: 'Block Size in KB',           field: 'blockSize',      width: 120, cellClass: "text-end"},
+    { headerName: 'Block Time',               headerTooltip: 'Block Time in KB',           field: 'blockTime',      width: 120, cellClass: "text-end"},
     { headerName: 'Client Language',          headerTooltip: 'Client Language(s)',         field: 'clientLanguage', width: 120 },
     { headerName: 'Consensus',                headerTooltip: 'Consensus Algorithms',       field: 'consensus',      width: 120 },
     { headerName: 'Hash Algorithm',           headerTooltip: 'Hash Algorithm',             field: 'hashAlgorithm',  width: 120  },
     { headerName: 'Smart Contract Languages', headerTooltip: 'Smart Contract Languages',   field: 'smartContractLanguages',  },
     { headerName: 'EVM',                      headerTooltip: 'EVM compatible',             field: 'evmCompatible',  width: 82, cellRenderer: this.renderCheckmarks },
-    { headerName: 'Currency',                 headerTooltip: 'Main currency of the chain', field: 'currency.name',  width: 120 },
+    //{ headerName: 'Currency',                 headerTooltip: 'Main currency of the chain', field: 'currency.name',  width: 120 },
     { headerName: 'Creator/Maintainer',       headerTooltip: 'Organization that maintains/created the blockchain',  width: 120,       field: 'creator',  },
     { headerName: 'Headquarter',              headerTooltip: 'Headquarter',                field: 'headquarter',    cellRenderer: this.renderHeadquarter },
     { headerName: 'Launched',                 headerTooltip: 'Launch Date',                field: 'chainLaunch',    width: 82 },
     { headerName: 'Type',                     headerTooltip: 'Public or Private',          field: 'type',           width: 82 },
     { headerName: 'License',                  headerTooltip: 'Software License of the Blockchain', field: 'license',width: 120  },
-    { headerName: 'Website',                  headerTooltip: 'Organization Website',       field: 'mainSite',       cellRenderer: this.renderHyperlink },
-    { headerName: 'Source Code',              headerTooltip: 'Source Code',                field: 'sourceCode',     cellRenderer: this.renderHyperlink },
-    { headerName: 'Links',                    headerTooltip: 'Relevant Hyperlinks',        field: 'links',          cellRenderer: this.renderHyperlink },
-    { headerName: 'Block Explorer',           headerTooltip: 'URL of the Block Explorer',  field: 'blockExplorer',  cellRenderer: this.renderHyperlink },
+    //{ headerName: 'Website',                  headerTooltip: 'Organization Website',       field: 'mainSite',       cellRenderer: this.renderHyperlink },
+    //{ headerName: 'Source Code',              headerTooltip: 'Source Code',                field: 'sourceCode',     cellRenderer: this.renderHyperlink },
+    //{ headerName: 'Links',                    headerTooltip: 'Relevant Hyperlinks',        field: 'links',          cellRenderer: this.renderHyperlink },
+    //{ headerName: 'Block Explorer',           headerTooltip: 'URL of the Block Explorer',  field: 'blockExplorer',  cellRenderer: this.renderHyperlink },
   ];
 
   ngOnInit(): void {
   }
 
-  renderHome(params: any) {
-    return '<b>' + params.data.name + params.data.blockTime + '</b>';
+  renderName(params: any) {
+    return '<b><a class="text-white text-decoration-none" href="/chain/' +params.data.name + '">' + params.data.name + '</a></b>';
   }
 
   renderLogo(params: any) {
@@ -83,12 +84,12 @@ export class TableComponent implements OnInit {
     if(Array.isArray(params.value)) {
       var result = '';
       params.value.forEach((x: string) => {
-        result +=  '<a href="' + x + '">' + x + '</a> ';
+        result +=  '<a class="link-info href="' + x + '">' + x + '</a> ';
       });
       return result;
     }
 
-    return '<a href="' + params.value + '">' + params.value + '</a>';
+    return '<a class="link-info" href="' + params.value + '">' + params.value + '</a>';
   }
   
   onFirstDataRendered(params: FirstDataRenderedEvent) {

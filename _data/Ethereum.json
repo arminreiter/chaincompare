@@ -27,6 +27,7 @@
     "hashAlgorithm" : "Ethash",
     "type": "public",
     "license" : "LGPL-3.0",
+    "txModel" : "Account",
     "description" : "",
     "extra": { },
     "lastUpdated" : "2022-04-24"
