@@ -23,6 +23,7 @@ jobs:
         cache-dependency-path: app/package-lock.json
 
     - name: npm install, build, and test
+      working-directory: app
       run: |
         npm install -g @angular/cli
         npm install
