@@ -17,7 +17,7 @@
 
       <form class="col-8 col-lg-auto mb-3 mb-lg-0 me-lg-3">
         <input type="search" class="form-control form-control-dark" placeholder="Filter data..." aria-label="Search" 
-        [(ngModel)]="dataService.search" (input)="onChangeEvent($event)" >
+        [ngModel]="(dataService.search | async)" [ngModelOptions]="{standalone: true}" (input)="onChangeEvent($event)" >
       </form>
     </div>
   </div>
