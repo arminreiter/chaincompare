@@ -5,15 +5,16 @@
     "sourceCode": "https://",
     "links": [ ],
     "blockExplorer" : [ ],
+    "baseTechnology": "",
     "currency": {
         "name" : "",
         "symbol" : "",
         "decimals": 18
     },
     "tps" : 100,
-    "ttf" : 35, // Transaction Finality in seconds
-    "blockTime" : 5, // in seconds
-    "blockSize" : 1024, // in KB
+    "ttf" : 35,
+    "blockTime" : 5,
+    "blockSize" : 1024,
     "clientLanguage" : [ "" ],
     "consensus": "",
     "creator": "",
@@ -30,5 +31,4 @@
     "description" : "",
     "extra": { },
     "lastUpdated" : "2022-04-24"
-
 }

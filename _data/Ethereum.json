@@ -5,6 +5,7 @@
     "sourceCode": "https://github.com/ethereum/go-ethereum",
     "links": [ ],
     "blockExplorer" : [ "https://etherscan.io" ],
+    "baseTechnology": "Blockchain",
     "currency": {
         "name" : "Ether",
         "symbol" : "ETH",

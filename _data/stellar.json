@@ -5,6 +5,7 @@
     "sourceCode": "https://github.com/stellar/stellar-core",
     "links": [ ],
     "blockExplorer" : [ "https://stellar.expert/" ],
+    "baseTechnology": "Blockchain",
     "currency": {
         "name" : "Stellar Lumens",
         "symbol" : "XLM",

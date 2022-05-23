@@ -5,6 +5,7 @@
     "sourceCode": "https://github.com/bitcoin/bitcoin",
     "links": [ ],
     "blockExplorer" : [ "https://www.blockchain.com/explorer" ],
+    "baseTechnology": "Blockchain",
     "currency": {
         "name" : "Bitcoin",
         "symbol" : "BTC",
@@ -30,5 +31,4 @@
         
     },
     "lastUpdated" : "2022-04-24"
-
 }

@@ -5,6 +5,7 @@
     "sourceCode": "https://github.com/input-output-hk/cardano-node",
     "links": [ "https://github.com/cardano-foundation" ],
     "blockExplorer" : [ "https://explorer.cardano.org/", "https://cardanoscan.io/" ],
+    "baseTechnology": "Blockchain",
     "currency": {
         "name" : "Cardano",
         "symbol" : "Ada",
