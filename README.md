@@ -1,5 +1,5 @@
 <h1 align="center">
-  Chain Compare
+  <img src="https://raw.githubusercontent.com/arminreiter/chaincompare/main/app/src/assets/img/CC_Logo_light.svg" width="220em">
 </h1>
 
 <p align="center">
