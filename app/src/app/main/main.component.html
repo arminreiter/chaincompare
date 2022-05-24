@@ -1,9 +1,9 @@
 
 <div class="row row-cols-1 row-cols-md-4 g-4">
     <div *ngFor="let chain of chainData" class="col">
-        <div class="card text-white bg-dark mb-3 border-secondary pt-1">
+        <div class="card bg-dark mb-3 border-secondary pt-1">
             <div class="card-header">
-                <a href="#" class="text-white text-decoration-none" [routerLink]="['/chain/'] + chain.name">
+                <a href="#" [routerLink]="['/chain/'] + chain.name">
                 <h5 class="d-flex justify-content-middle align-items-middle">
                     <img [src]="chain.logo" height="24px" class="pe-3"> {{chain.name}}
                 </h5>

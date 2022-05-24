@@ -6,16 +6,16 @@
       </a>
 
       <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="#" [routerLink]="['/']" class="nav-link px-2 text-white">Home</a></li>
-        <li><a href="#" [routerLink]="['/table']" class="nav-link px-2 text-white">Table</a></li>
-        <li><a href="#" [routerLink]="['/about']" class="nav-link px-2 text-white">About</a></li>
+        <li><a href="#" [routerLink]="['/']" class="nav-link px-2">Home</a></li>
+        <li><a href="#" [routerLink]="['/table']" class="nav-link px-2">Table</a></li>
+        <li><a href="#" [routerLink]="['/about']" class="nav-link px-2">About</a></li>
       </ul>
 
-      <form class="col-4 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+      <form class="col-5 col-lg-auto mb-3 mb-lg-0 me-lg-3">
         <a href="https://github.com/arminreiter/chaincompare" type="button" class="btn btn-primary">+ Add chain</a>
       </form>
 
-      <form class="col-8 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+      <form class="col-7 col-lg-auto mb-3 mb-lg-0 me-lg-3">
         <input type="search" class="form-control form-control-dark" placeholder="Filter data..." aria-label="Search" 
         [ngModel]="(dataService.search | async)" [ngModelOptions]="{standalone: true}" (input)="onChangeEvent($event)" >
       </form>
