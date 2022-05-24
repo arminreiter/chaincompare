@@ -1,0 +1,34 @@
+{
+    "name": "Solana",
+    "logo": "assets/logos/solana.svg",
+    "mainSite": "https://solana.com",
+    "sourceCode": "https://github.com/solana-labs/",
+    "links": [ "https://docs.solana.com/" ],
+    "blockExplorer" : [ "https://explorer.solana.com/", "https://solanabeach.io/" ],
+    "baseTechnology": "Blockchain",
+    "currency": {
+        "name" : "Solana",
+        "symbol" : "SOL",
+        "decimals": 9
+    },
+    "tps" : 3000,
+    "ttf" : 8,
+    "blockTime" : 0.4,
+    "blockSize" : 78643,
+    "clientLanguage" : [ "Rust" ],
+    "consensus": "PoS + PoH",
+    "creator": "Solana Foundation",
+    "headquarter" : {
+        "country" : "Switzerland",
+        "city" : "Geneva"
+    },
+    "chainLaunch" : 2020,
+    "smartContractLanguages" : [ "Rust", "C", "C++" ],
+    "evmCompatible" : true,
+    "hashAlgorithm" : "sha256",
+    "type": "public",
+    "license" : "Apache 2.0",
+    "description" : "Solana is a high-performance cryptocurrency blockchain which supports smart contracts and decentralized applications. Solana can process 50.000-65.000 TPS and has a theoretical limit of 700.000 TPS. 2.000-3.000 is the value measured and confirmed on the mainnet.",
+    "extra": { },
+    "lastUpdated" : "2022-05-24"
+}
