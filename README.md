@@ -21,8 +21,9 @@ ChainCompare does not collect financial data such as price, marketcap or trading
 
 ## Add new chain
 
-If you want to add a new chain, take the template file in _data/_template.json, create a copy of it, fill
-in all the information and create a pull request. The image of the chain must be in app/src/assets/logos/.  
+If you want to add a new chain, you can either use the form at <https://forms.office.com/r/fz5dq0JW2T> or you take the template 
+file in _data/_template.json, create a copy of it, fill in all the information and create a pull request. The image of the 
+chain must be in app/src/assets/logos/.  
 
 The data collected is:
 
@@ -32,7 +33,7 @@ The data collected is:
 - sourceCode: is the link to the source code (e.g. https://github.com/ethereum/go-ethereum)
 - links: contains other useful links such das documentation
 - blockExplorer: contains the link to the block explorer(s) (e.g. "https://etherscan.io")
-- baseTechnology: Blockchain, DAG (directed acyclic graph), ...
+- baseTechnology: Blockchain, DAG (directed acyclic graph) or e.g. "Blockchain (Ethereum)" for blockchains with own mainnet but based on Ethereum
 - currency: contains the name, symbol and number of decimals
 - tps: Transactions per second
 - ttf: time to finality (in seconds)
