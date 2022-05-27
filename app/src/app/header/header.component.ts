@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { DataService } from '../shared/services/data.service';
 
 @Component({
@@ -7,6 +8,7 @@ import { DataService } from '../shared/services/data.service';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  faGitHub = faGithub;
   
   constructor(public dataService: DataService) { }
 
