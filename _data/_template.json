@@ -1,6 +1,6 @@
 {
     "name": "",
-    "logo": "",
+    "logo": "assets/logos/name.svg",
     "mainSite": "https://",
     "sourceCode": "https://",
     "links": [ ],
@@ -15,6 +15,7 @@
     "ttf" : 35,
     "blockTime" : 5,
     "blockSize" : 1024,
+    "blockLimit": "",
     "clientLanguage" : [ "" ],
     "consensus": "",
     "creator": "",

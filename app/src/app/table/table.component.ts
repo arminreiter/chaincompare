@@ -32,6 +32,7 @@ export class TableComponent implements OnInit {
     { headerName: 'Tps',                      headerTooltip: 'Transactions per Second',    field: 'tps',            width: 82, cellClass: "text-end" },
     { headerName: 'TTF',                      headerTooltip: 'Time till Finality',         field: 'ttf',            width: 82, cellClass: "text-end" },
     { headerName: 'Block Size',               headerTooltip: 'Block Size in KB',           field: 'blockSize',      width: 120, cellClass: "text-end"},
+    { headerName: 'Block Limit',              headerTooltip: 'Limit per Block',            field: 'blockLimit',     width: 120, cellClass: "text-end"},
     { headerName: 'Block Time',               headerTooltip: 'Block Time in KB',           field: 'blockTime',      width: 120, cellClass: "text-end"},
     { headerName: 'Client Language',          headerTooltip: 'Client Language(s)',         field: 'clientLanguage', width: 120 },
     { headerName: 'Consensus',                headerTooltip: 'Consensus Algorithms',       field: 'consensus',      width: 120 },

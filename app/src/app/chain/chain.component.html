@@ -3,7 +3,7 @@
         <div class="card-header">
             <h5 class=""><img [src]="chain.logo" height="24px" class="pe-2"> {{chain.name}}</h5>
         </div>
-        <div class="card-body">
+        <div class="card-body mx-3">
             <table class="table table-dark table-striped table-borderless mx-3">
                 <tr>
                     <td width="40%">Name:</td>
@@ -28,6 +28,10 @@
                 <tr>
                     <td>Block Size:</td>
                     <td>{{chain.blockSize}} KB</td>
+                </tr>
+                <tr>
+                    <td>Block Limit:</td>
+                    <td>{{chain.blockLimit}}</td>
                 </tr>
                 <tr>
                     <td>Client Language:</td>
