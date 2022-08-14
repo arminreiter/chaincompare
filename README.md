@@ -74,6 +74,7 @@ The data collected is:
     "ttf" : 4200, 
     "blockTime" : 600, 
     "blockSize" : 1024,
+    "blockLimit" : "1024 KB",
     "clientLanguage" : [ "C++" ],
     "consensus": "PoW",
     "creator": "Satoshi Nakamoto",
@@ -102,3 +103,7 @@ npm install
 npm run updata
 ng serve
 ```
+
+## Logos
+
+Special thanks to <https://cryptologos.cc> for providing logos of lots of cryptocurrencies.

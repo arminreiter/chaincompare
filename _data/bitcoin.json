@@ -15,6 +15,7 @@
     "ttf" : 4200, 
     "blockTime" : 600, 
     "blockSize" : 1024,
+    "blockLimit" : "1024 KB",
     "clientLanguage" : [ "C++" ],
     "consensus": "PoW",
     "creator": "Satoshi Nakamoto",
@@ -26,9 +27,9 @@
     "type": "public",
     "license" : "MIT",
     "txModel" : "UTXO",
-    "description" : "",
+    "description" : "Bitcoin is a decentralized cryptocurrency and the first of its kind. Its the most popular cryptocurrency launched in 2009 by an anonymous person or group called Satoshi Nakamoto.",
     "extra": {
         
     },
-    "lastUpdated" : "2022-04-24"
+    "lastUpdated" : "2022-08-14"
 }

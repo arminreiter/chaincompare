@@ -15,6 +15,7 @@
     "ttf" : 8,
     "blockTime" : 0.4,
     "blockSize" : 78643,
+    "blockLimit" : "76.8 MB",
     "clientLanguage" : [ "Rust" ],
     "consensus": "PoS + PoH",
     "creator": "Solana Foundation",

@@ -15,6 +15,7 @@
     "ttf" : 600,
     "blockTime" : 20, 
     "blockSize" : 80, 
+    "blockLimit" : "80 KB",
     "clientLanguage" : [ "Haskell" ],
     "consensus": "Ouroboros",
     "creator": "Cardano Foundation",
@@ -28,7 +29,7 @@
     "hashAlgorithm" : "BLAKE2b-224",
     "type": "public",
     "license" : "Apache 2.0",
-    "description" : "",
+    "description" : "Cardano is a proof-of-stake blockchain platform founded by Charles Hoskinson based on peer-reviewed research. ",
     "txModel" : "EUTXO",
     "extra": { },
     "lastUpdated" : "2022-04-24"

@@ -1,0 +1,35 @@
+{
+    "name": "Ripple",
+    "logo": "assets/logos/ripple.svg",
+    "mainSite": "https://xrplf.org",
+    "sourceCode": "https://github.com/XRPLF",
+    "links": [ "https://ripple.com/", "https://ripple.com/files/ripple_consensus_whitepaper.pdf" ],
+    "blockExplorer" : [ "https://xrpcharts.ripple.com/", "https://xrpscan.com/" ],
+    "baseTechnology": "Blockchain",
+    "currency": {
+        "name" : "Ripple",
+        "symbol" : "XRP",
+        "decimals": 7
+    },
+    "tps" : 1500,
+    "ttf" : 5,
+    "blockTime" : 4,
+    "blockSize" : 0,
+    "blockLimit": "",
+    "clientLanguage" : [ "C++" ],
+    "consensus": "RPCA",
+    "creator": "Arthur Britto, David Schwartz, Ryan Fugger, Chris Larsen, Jed McCaleb, Ripple Labs Inc.",
+    "headquarter" : {
+        "country" : "USA",
+        "city" : "San Francisco"
+    },
+    "chainLaunch" : 2013,
+    "smartContractLanguages" : [  ],
+    "evmCompatible" : false,
+    "hashAlgorithm" : "RPCA, sha256",
+    "type": "public",
+    "license" : "ISC license",
+    "description" : "Ripple is a real-time payment settlement system, currency exchange and remittance network initially conceived by Jed McCaleb. Ripple uses the Ripple Protocol Consensus Algorithm (RPCA).",
+    "extra": { },
+    "lastUpdated" : "2022-08-14"
+}
