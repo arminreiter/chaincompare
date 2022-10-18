@@ -12,7 +12,7 @@
         "decimals": 18
     },
     "tps" : 15,
-    "ttf" : 90,
+    "ttf" : 72,
     "blockTime" : 12,
     "blockSize" : 80,
     "blockLimit" : "30.000.000 Gas",
