@@ -13,11 +13,11 @@
     },
     "tps" : 15,
     "ttf" : 90,
-    "blockTime" : 15,
+    "blockTime" : 12,
     "blockSize" : 80,
     "blockLimit" : "30.000.000 Gas",
     "clientLanguage" : [ "Go" ],
-    "consensus": "PoW",
+    "consensus": "PoS",
     "creator": "Ethereum Foundation",
     "headquarter" : {
         "country" : "Switzerland",
