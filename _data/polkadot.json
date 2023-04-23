@@ -1,0 +1,38 @@
+{
+    "name": "Polkadot",
+    "logo": "assets/logos/polkadot.svg",
+    "mainSite": "https://polkadot.network",
+    "sourceCode": "https://github.com/paritytech/polkadot",
+    "links": [ "https://wiki.polkadot.network" ],
+    "blockExplorer" : [ "https://explorer.polkascan.io/polkadot" ],
+    "baseTechnology": "Blockchain",
+    "currency": {
+        "name" : "DOT",
+        "symbol" : "DOT",
+        "decimals": 10
+    },
+    "tps" : 1000,
+    "ttf" : 6,
+    "blockTime" : 6,
+    "blockSize" : null,
+    "blockLimit" : "Variable",
+    "clientLanguage" : [ "Rust" ],
+    "consensus": "NPoS",
+    "creator": "Gavin Wood",
+    "headquarter" : {
+        "country" : "Switzerland",
+        "city" : "Zug"
+    },
+    "chainLaunch" : 2020,
+    "smartContractLanguages" : [ "Ink!", "Solidity" ],
+    "evmCompatible" : false,
+    "hashAlgorithm" : "Blake2b",
+    "type": "public",
+    "license" : "GPLv3",
+    "txModel" : "Account-based",
+    "description" : "Polkadot is a blockchain protocol connecting multiple specialized blockchains into one unified network. Polkadot operates two types of chains - the main network called relay chain and multiple parachains. Polkadot itself is not EVM compatible, but there are projects such as moonbeam which is an EVM compatible parachain.",
+    "extra": {
+
+    },
+    "lastUpdated" : "2023-04-23"
+}

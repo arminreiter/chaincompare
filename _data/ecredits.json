@@ -1,0 +1,36 @@
+{
+    "name": "eCredits",
+    "logo": "assets/logos/ecredits.png",
+    "mainSite": "https://ecredits.com",
+    "sourceCode": "https://github.com/eCredits",
+    "links": [ ],
+    "blockExplorer" : [ "https://explorer.ecredits.com/" ],
+    "baseTechnology": "Blockchain",
+    "currency": {
+        "name" : "eCredits",
+        "symbol" : "ECS",
+        "decimals": 18
+    },
+    "tps" : 100,
+    "ttf" : 30,
+    "blockTime" : 5,
+    "blockSize" : 80,
+    "blockLimit": "10.000.000 Gas",
+    "clientLanguage" : [ "Go" ],
+    "consensus": "PoA",
+    "creator": "The People's SCE",
+    "headquarter" : {
+        "country" : "Luxembourg",
+        "city" : "Luxembourg"
+    },
+    "chainLaunch" : 2021,
+    "smartContractLanguages" : [ "Solidity", "Vyper", "Yul", "Yul+", "Fe" ],
+    "evmCompatible" : true,
+    "hashAlgorithm" : "Ethash",
+    "type": "public",
+    "license" : "LGPL-3.0",
+    "txModel": "Account",
+    "description" : "eCredits is The people's currency and provides an ecosystem for small and medium sized enterprises.",
+    "extra": { },
+    "lastUpdated" : "2022-10-18"
+}

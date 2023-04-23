@@ -1,0 +1,38 @@
+{
+    "name": "Algorand",
+    "logo": "assets/logos/algorand.svg",
+    "mainSite": "https://www.algorand.com",
+    "sourceCode": "https://github.com/algorand/",
+    "links": [ "https://developer.algorand.org/docs/" ],
+    "blockExplorer" : [ "https://algoexplorer.io" ],
+    "baseTechnology": "Blockchain",
+    "currency": {
+        "name" : "ALGO",
+        "symbol" : "ALGO",
+        "decimals": 6
+    },
+    "tps" : 6000,
+    "ttf" : 4,
+    "blockTime" : 4,
+    "blockSize" : 5120,
+    "blockLimit" : "5 MB",
+    "clientLanguage" : [ "Go" ],
+    "consensus": "PPoS",
+    "creator": "Silvio Micali",
+    "headquarter" : {
+        "country" : "Singapore",
+        "city" : "Singapore"
+     },
+    "chainLaunch" : 2019,
+    "smartContractLanguages" : [ "TEAL", "PyTeal" ],
+    "evmCompatible" : false,
+    "hashAlgorithm" : "SHA-512/256",
+    "type": "public",
+    "license" : "GPLv3",
+    "txModel" : "Account-based",
+    "description" : "Algorand is designed to speed up transactiosn and improve efficiency. It has low transaction fees and is energy efficient. It uses Pure Proof of Stake (PPoS) as consensus algorithm.",
+    "extra": {
+
+    },
+    "lastUpdated" : "2023-04-23"
+}

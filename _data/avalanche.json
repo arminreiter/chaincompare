@@ -1,0 +1,38 @@
+{
+    "name": "Avalanche",
+    "logo": "assets/logos/avalanche.svg",
+    "mainSite": "https://www.avalabs.org",
+    "sourceCode": "https://github.com/ava-labs/",
+    "links": [ "https://docs.avax.network/" ],
+    "blockExplorer" : [ "https://explorer.avax.network" ],
+    "baseTechnology": "Blockchain",
+    "currency": {
+        "name" : "AVAX",
+        "symbol" : "AVAX",
+        "decimals": 18
+    },
+    "tps" : 4500,
+    "ttf" : 1,
+    "blockTime" : 2,
+    "blockSize" : null,
+    "blockLimit" : "Variable",
+    "clientLanguage" : [ "Go" ],
+    "consensus": "Avalanche PoS",
+    "creator": "Emin Gün Sirer",
+    "headquarter" : {
+        "country" : "United States",
+        "city" : "New York"
+     },
+    "chainLaunch" : 2020,
+    "smartContractLanguages" : [ "Solidity" ],
+    "evmCompatible" : true,
+    "hashAlgorithm" : "SHA-256",
+    "type": "public",
+    "license" : "BSD-3-Clause",
+    "txModel" : "Account-based",
+    "description" : "Avalanche is a blockchain platform built with focus on high throughput, low latency and energy efficiency. It is a network of custom blockchains which is possible through Avalanche's unique architecture which consists of three individual blockchains: X-Chain (Exchange), C-Chain (Contract) and P-Chain (Platform). The X-Chain is used for creating and trading assets, the C-Chain is used for smart contracts and the P-Chain is used for creating new blockchains and validators. Avalanche is also EVM compatible and supports Solidity smart contracts. ",
+    "extra": {
+
+    },
+    "lastUpdated" : "2023-04-23"
+}

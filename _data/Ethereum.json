@@ -32,6 +32,5 @@
     "txModel" : "Account",
     "description" : "Ethereum is a decentralized, open-source blockchain with smart contract functionality founded by Vitalik Buterin.",
     "extra": { },
-    "lastUpdated" : "2022-04-24"
-
+    "lastUpdated" : "2022-10-18"
 }

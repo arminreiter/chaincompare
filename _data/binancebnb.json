@@ -1,0 +1,35 @@
+{
+    "name": "Binance Smart Chain",
+    "logo": "assets/logos/binancebnb.svg",
+    "mainSite": "https://www.bnbchain.org/",
+    "sourceCode": "https://github.com/bnb-chain",
+    "links": [ "https://research.binance.com/en/projects/bnb" ],
+    "blockExplorer" : [ "https://bscscan.com" ],
+    "baseTechnology": "Blockchain",
+    "currency": {
+        "name" : "BNB",
+        "symbol" : "BNB",
+        "decimals": 18
+    },
+    "tps" : 100,
+    "ttf" : 21,
+    "blockTime" : 3,
+    "blockSize" : null,
+    "blockLimit" : "Variable",
+    "clientLanguage" : [ "Go" ],
+    "consensus": "PoSA",
+    "creator": "Binance",
+    "headquarter" : { },
+    "chainLaunch" : 2020,
+    "smartContractLanguages" : [ "Solidity", "Vyper" ],
+    "evmCompatible" : true,
+    "hashAlgorithm" : "Ethash",
+    "type": "public",
+    "license" : "GPLv3",
+    "txModel" : "Account-based",
+    "description" : "BNB Chain, is made up of two blockchains — BNB Beacon Chain (BC) and BNB Smart Chain (BSC) which is EVM-compatible. BNB is the native token, which validators use for governance and staking. It uses Proof of Staked Authority as consensus algorithm.",
+    "extra": {
+
+    },
+    "lastUpdated" : "2023-04-23"
+}
